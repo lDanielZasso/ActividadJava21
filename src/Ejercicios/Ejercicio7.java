@@ -18,8 +18,8 @@ public class Ejercicio7 extends Applet {
         
         while(true){
             if(semaforo == 0){
-                x1 = (int) (85*Math.cos(ang1)) + 300;
-                y1 = (int) (85*Math.sin(ang1)) + 300;
+                x1 = (int) (90*Math.cos(ang1)) + 295;
+                y1 = (int) (90*Math.sin(ang1)) + 295;
                 g.drawOval(x1, y1, 10, 10);
                 g.drawOval(x2, y2, 10, 10);
                 
@@ -35,8 +35,8 @@ public class Ejercicio7 extends Applet {
                 
                 semaforo = 1;
             }else{
-                x2 = (int) (85*Math.cos(ang2)) + 300;
-                y2 = (int) (85*Math.sin(ang2)) + 300;
+                x2 = (int) (90*Math.cos(ang2)) + 295;
+                y2 = (int) (90*Math.sin(ang2)) + 295;
                 g.drawOval(x2, y2, 10, 10);
                 g.drawOval(x1, y1, 10, 10);
                 
