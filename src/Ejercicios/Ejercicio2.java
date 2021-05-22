@@ -47,7 +47,7 @@ public class Ejercicio2 extends Applet {
             int x = (int)(5*Math.cos(ang))+cx;
             int y = (int)(5*Math.sin(ang))+cy;
             
-            g.clearRect(x, y, 3, 3);
+            g.clearRect(x, y, 2, 2);
         }
         
     }

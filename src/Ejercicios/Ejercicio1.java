@@ -6,10 +6,12 @@ import java.awt.Graphics;
 
 public class Ejercicio1 extends Applet {
     
+    @Override
     public void init() {
         resize(300,300);
     }
     
+    @Override
     public void paint(Graphics g){
         for(int i=0; i<2000; i++){
             int x = (int)(Math.random()*300);
